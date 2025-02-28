@@ -21,7 +21,7 @@ about 1.5 W, at which point the sampling rate, with all the delays in the sampli
 just over 100 ksps, and the readings look good and no different from what they look at a lower sampling rate.
 
 At full 1.368 GHz CPU clock the measured power consumption was about 2.6 W, therefore switching to 648 MHz
-means a 57% power draw reduction.
+means a 43% power draw reduction.
 
 It will also work with the MCP3302/3304 13-bit ADC chip family, provided that the obvious necessary changes are added
 to read the extra sign bit and, if fully differential mode is used, to employ the necessary arithmetics
